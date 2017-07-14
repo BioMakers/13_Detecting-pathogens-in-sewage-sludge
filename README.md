@@ -1,6 +1,6 @@
 
 
-Here are some loose guidlines meant to give you an idea of what information we expect to find in each repository. Feel free to present your documentation in the most accessible and suitable order and style but you **must** include project data relating to the following topics.
+Here are some loose guidlines meant to give you an idea of what information we expect to find in each repository. Feel free to present your documentation in the most accessible and suitable order and style but you **must** include project data relating to the headings below, if relevant to your project. Also, include your final proposal in the top directory.
 
 [**A very good example**](https://github.com/Biological-Microsystems-Laboratory/micropipette)
 
@@ -23,8 +23,5 @@ Provide instructions on usage, describe a test scheme and show how to run the te
 ## License
 
 A short snippet describing the license (MIT, Apache, etc.) you have chosen to use
-
-## **Include your final proposal in the top directory**
-
 
 
