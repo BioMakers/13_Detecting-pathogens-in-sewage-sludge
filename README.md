@@ -4,6 +4,8 @@ Here are some loose guidlines meant to give you an idea of what information we e
 
 [**A very good example**](https://github.com/Biological-Microsystems-Laboratory/micropipette)
 
+Consider using [GitHub for desktop](https://desktop.github.com/), the user interface and experience is so much better than the web version of Github, in my opinion.
+
 ## Synopsis
 
 A summary of your project. This is the 150 word description from your proposal. Include your project banner and photos of team members.
