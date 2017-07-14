@@ -6,7 +6,7 @@ Here are some loose guidlines meant to give you an idea of what information we e
 
 Consider using [GitHub for desktop](https://desktop.github.com/), the user interface and experience is so much better than the web version of Github, in my opinion.
 
-Lastly, follow [these](https://pages.github.com/ instructions if you want to style your github repository into a webpage like [so](https://biomakers.github.io/Example-repo/).
+Lastly, follow [these](https://pages.github.com/) instructions if you want to style your github repository into a webpage like [so](https://biomakers.github.io/Example-repo/).
 
 ## Synopsis
 
