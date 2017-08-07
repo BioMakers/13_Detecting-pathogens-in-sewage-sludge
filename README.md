@@ -10,7 +10,15 @@ Lastly, follow [these](https://pages.github.com/) instructions if you want to st
 
 ## Synopsis
 
-A summary of your project. This is the 150 word description from your proposal. Include your project banner and photos of team members.
+CDI’s piloted sewage system uniquely aims to be a sustainable and profitable system where products derived from sewage can be sold back into the community at prices that can compete with the current market.
+The present state of the 2016 piloted sewage system is that there is a flow of sewage, albeit with unpredictable biogas and fertiliser production, the device for which is still in prototyping stages. Further understanding of the sewage system is needed to diagnose problems and measure the effectiveness of designs.
+The solar concentrator aims to ‘cook away’ harmful pathogens in the sewage for conversion into marketable fertiliser. The cooking process is measured by taking infrared thermal readings of the outside of the drum container. However, there is a need to monitor the environmental conditions within the drum and test the resulting sludge for pathogens.
+We are looking to create a product that can rapidly report on the fertilizing quality and safety of heat-treated sewage sludge.
+
+![Banner_image](Pictures/BrandingBanner.jpg)
+
+![Farhaan](Pictures/farhaanheadshot.jpg)
+![Samad](Pictures/samadheadshot.jpg)
 
 ## Software
 
