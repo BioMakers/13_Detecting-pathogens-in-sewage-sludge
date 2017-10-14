@@ -13,15 +13,14 @@ We are looking to create a product that can rapidly report on the fertilizing qu
 ![Samad](Pictures/samadheadshot.jpg)
 
 
-## Background Research and Design Proposal
+## Background Research
 Living bacteria exhibits behaviour that can distinguish it from dead bacteria, which range from respiration, to growth, to consumption. These characteristics can be detected by, for example, detecting changes in oxygen levels, observing presence of specific type of bacteria under a petri dish, or observing absorption with flourescence microscopy. 
 
-Movement is one of the behaviours of live microorganisms. There are a few scientific papers which use movement to quanitify the levels of bacteria, and generally they conclude that the more observed movement, the more number of bacteria is present. The method they use is speckle decorrelation, where a speckle pattern on a sample is observed with a digital camera and analysed for decorrelation - that is, how much movement there is in the video feed. The method is able to work with little pre-processing of the sample and can produce results immediately (compared to the long wait times needed for other biological processes used in other bacteria sensing methods). 
-This is relevant to the need because it is important to quantify how well the solar cooker is killing bacteria, and not necessarily the specific strand of bacteria. Also as this measurement is needed out in the field in a harsh environment with little resources, the fact that there is no needed chemicals or enzymes needed makes this a viable option for in-field testing. 
+Movement is one of the behaviours of live microorganisms. There are a few scientific papers which use movement to quanitify the levels of bacteria, and generally they conclude that the more observed movement, the more number of bacteria is present. The method they use is speckle decorrelation, where a speckle pattern on a sample is observed with a digital camera and analysed for decorrelation - that is, how much movement there is in the video feed. The method is able to work with little pre-processing of the sample and can produce results immediately (compared to the long wait times needed for chemical or biological processes used in other bacteria sensing methods). 
+This is relevant to the need because it is important to quantify how well the solar cooker is killing bacteria, and not necessarily the specific strand of bacteria. Ideally the kind of relationship sought after is the % of bacteria killed vs. the time in the solar-cooker.
 
-## Design Implementation
-
-
+## Design Proposal
+The overall design is simply a laser and camera, with focussing lenses and a computer: the laser shines a speckle pattern onto a sample, and the camera records the area on the sample and quantifies the visual movement over 20 seconds. Convex lenses are required to focus the camera onto the spot on the sample, and a computer to perform analysis.
 
 ## Software
 
