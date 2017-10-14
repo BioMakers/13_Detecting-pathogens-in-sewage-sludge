@@ -24,9 +24,24 @@ The overall design is simply a laser and camera, with focussing lenses and a com
 
 ## Software
 
+The role of the software is to accept input video feed and output a number quantifying the movement within the video. The aim is that this number will increase as more live, moving, bacteria is present in the video.
+
 Explain functionality of software components (if any) as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Ideally, this should be pseudo code or an abstract graphical representation of your code e.g entity relationship diagram. Consider adding a screenshot of your User Interface.
 
 ## Hardware
+
+# Mechanical
+Camera focussing system consists of two convex lenses, a WaterScope microscope kit base, a raspberry pi camera module. This was put together using a constructable metal frame. 
+The lenses used were: 
+1) 25mm diameter 12mm focus convex lens as the 'objective lens' nearest to the sample
+2) 15mm diameter, 20mm focus, conves lens for the 'optical lens' nearest to the camera
+These were separated by 32mm. 
+Attaching the lenses to the frame was challenging, so we used small 15cm by 4cm plates of 3mm acrylic with holes in the centre to glue the lenses on to. 
+The WaterScope Microscope 3d printed base is a useful way to move the sample by micro-meter steps. 
+
+# Electrical
+A small breadboard to connect the laser
+
 
 Explain how the hardware components (if any) of your project function as concisely as possible, including a short description of fabrication and assembly. Component suppliers and part numbers should be provided separately in a bill of materials, in a 'Hardware Folder'.
 
