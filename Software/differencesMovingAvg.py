@@ -3,26 +3,31 @@
 import cv2
 import numpy as np
 import os
+import time
+import sys
 
-print "Press Ctrl * C to EXIT"
+#print "Press Ctrl * C to EXIT"
 
 if os.path.exists('/dev/video0') == False:
   path = 'sudo modprobe bcm2835-v4l2 max_video_width=2592 max_video_height=1944'
   os.system (path)
   time.sleep(1)
 
+
+
 width = 640
 height = 480
 cam = cv2.VideoCapture(0)
 cam.set(3,width)
 cam.set(4,height)
+total_pixels = (height * width)
 thres = 20 # set difference between pixel values between frames
-trigger = (height * width) / 10   # 10% of pixels
+trigger = 0.1 * total_pixels   # 10% of pixels
 
 winName = "Picture"
 winName3 = "Differences"
-cv2.namedWindow(winName, cv2.CV_WINDOW_AUTOSIZE)
-cv2.namedWindow(winName3, cv2.CV_WINDOW_AUTOSIZE)
+cv2.namedWindow(winName) #, cv2.CV_WINDOW_AUTOSIZE)
+cv2.namedWindow(winName3) #, cv2.CV_WINDOW_AUTOSIZE)
 s = np.zeros((height,width,3), np.uint8)
 t0 = cv2.cvtColor(cam.read()[1], cv2.COLOR_RGB2GRAY)
 t = cv2.cvtColor(cam.read()[1], cv2.COLOR_RGB2GRAY)
@@ -46,7 +51,7 @@ while True:
   c[c >= thres] = 200
   cv2.imshow( winName3,c)
   total = np.sum(c)/200
-  if total > trigger:
+  #if total > trigger:
     #print "Movement"
   t0 = t
   
@@ -58,6 +63,7 @@ while True:
   moving_average = moving_sum / total_frames_in_moving_average
   elapsed_time = frame / fps
   frame = frame + 1
-  print moving_average
+  print (total*100/total_pixels), (moving_average*100/total_pixels)
   
-  key = cv2.waitKey(10)
+  key = cv2.waitKey(100)
+  sys.stdout.flush()
