@@ -1,4 +1,3 @@
-
 ## Detecting Pathogens in Sewage Sludge
 
 ## Synopsis
@@ -28,9 +27,13 @@ The overall design is simply a laser and camera, with focussing lenses and a com
 The role of the software is to accept input video feed and output a number quantifying the movement within the video. The aim is that this number will increase as more live, moving, bacteria is present in the video.
 
 The implementation is as follows:
-- we use OpenCV libraries
+- we use OpenCV libraries:
 - we use a python script to do image analysis
 - we output the moving average value
+
+run the command in the directory with the source files: (after 'make' for basicDemo)
+python differencesMovingAvg.py | ./basicDemo
+
 
 Explain functionality of software components (if any) as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Ideally, this should be pseudo code or an abstract graphical representation of your code e.g entity relationship diagram. Consider adding a screenshot of your User Interface.
 
