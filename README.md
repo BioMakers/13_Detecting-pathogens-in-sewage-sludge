@@ -20,6 +20,7 @@ Movement is one of the behaviours of live microorganisms. There are a few scient
 This is relevant to the need because it is important to quantify how well the solar cooker is killing bacteria, and not necessarily the specific strand of bacteria. Ideally the kind of relationship sought after is the % of bacteria killed vs. the time in the solar-cooker.
 
 ## Design Proposal
+
 The overall design is simply a laser and camera, with focussing lenses and a computer: the laser shines a speckle pattern onto a sample, and the camera records the area on the sample and quantifies the visual movement over 20 seconds. Convex lenses are required to focus the camera onto the spot on the sample, and a computer to perform analysis.
 
 ## Software
@@ -31,7 +32,8 @@ The implementation is as follows:
 - we use a python script to do image analysis
 - we output the moving average value
 
-run the command in the directory with the source files: (after 'make' for basicDemo)
+run the command in the directory with the source files: (after 'make' for basicDemo):
+(do this line when ssh'ing in so there is no GTK display error): export DISPLAY=":0"
 python differencesMovingAvg.py | ./basicDemo
 
 
