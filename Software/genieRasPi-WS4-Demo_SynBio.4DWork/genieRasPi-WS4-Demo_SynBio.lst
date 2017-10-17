@@ -5197,7 +5197,7 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\Diablo16_Functions
 005191  000018        
 005192  000002        
 005193  000003        
-005194  000004  // generated 16/10/2017 19:21:54
+005194  000004  // generated 17/10/2017 19:51:21
 005195  000005        
 005196  000006  #MODE FLASHBANK_0
 005197  000007        
@@ -5236,7 +5236,7 @@ file C:\Users\Samad Arshad\Documents\4dSystems\Genie program\genieRasPi-WS4-Demo
 
 005225  000013  #inherit "genieRasPi-WS4-Demo_SynBioConst.inc"
 005226  000013  #inherit "genieRasPi-WS4-Demo_SynBioConst.inc"
-005227  000001  // File generated 16/10/2017 19:21:53
+005227  000001  // File generated 17/10/2017 19:51:19
 005228  000002  // Warning! This is a generated file, any manual changes will be
 005229  000003  // lost during the next generation.
 005230  000004        
@@ -5246,8 +5246,8 @@ file C:\Users\Samad Arshad\Documents\4dSystems\Genie program\genieRasPi-WS4-Demo
 005234  000006  #constant  Strings0Size     11
 005235  000007  #constant  Strings1Count    1
 005236  000007  #constant  Strings1Count    1
-005237  000008  #constant  Strings1Size     19
-005238  000008  #constant  Strings1Size     19
+005237  000008  #constant  Strings1Size     10
+005238  000008  #constant  Strings1Size     10
 005239  000009  // object indexes into ImageControl
 005240  000010  #CONST
 005241  000013  #END
@@ -7288,7 +7288,7 @@ Strings0Size                          11  0x0000000b (const dword)  (usage 3)
 Strings0StartH                         0  0x00000000 (const dword)  (usage 3)
 Strings0StartL                         0  0x00000000 (const dword)  (usage 3)
 Strings1Count                          1  0x00000001 (const dword)  (not used)
-Strings1Size                          19  0x00000013 (const dword)  (usage 3)
+Strings1Size                          10  0x0000000a (const dword)  (usage 3)
 Strings1StartH                         0  0x00000000 (const dword)  (usage 3)
 Strings1StartL                       512  0x00000200 (const dword)  (usage 3)
 stringsCV                              6  0x00000006 (mem) word[2] (global)  (usage 23)
